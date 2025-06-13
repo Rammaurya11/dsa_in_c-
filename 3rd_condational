@@ -1,0 +1,50 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  // int n;
+  // cin>>n;
+  // cout<<"enrter number is "<<n <<endl;
+
+
+//   int a;
+//   cout <<"Enter a number :   ";
+//   cin>>a;
+//   if(a>0){
+//     cout<<"Enter Nuber "<<a<<" is positive" ;
+//   }else if(a==0){
+//     cout<<"Enter Number  " <<a  <<" is Zero";
+// } else{
+//     cout<<"Enter Number  " <<a  <<" is Nigative";
+// }
+// int a=2;
+// int b=a+1;
+// if((a=3)==b){
+//   cout<<a;
+// }
+//   else{
+//     cout<<a+1;
+//   } //out put is if ki value and otput is 3
+
+
+// int a =24;
+// if(a> 20){
+//   cout<< "vlove";
+
+// }else if(a==24){
+//   cout<<"lovely";
+
+// }else{
+//   cout<<"ram ram";
+
+// }
+// cout<<a;
+int a,b;
+// int b;
+cin>>a;
+cin>>b;
+int c = a+b;
+cout<<"adition is " <<c;
+
+}  
+
