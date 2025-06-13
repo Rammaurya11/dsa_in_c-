@@ -1,0 +1,12 @@
+#include<iostream>  //includ kiya gaya iostrem ko//
+
+using namespace std;  //std vala name spase kiye jane ke liye bataya gaya hay //
+
+int main(){
+    
+    cout << "hello wold " <<'\n';   // << es oprater ka use display karane ke liye use kiya jata hay//
+        cout << "hello wold " <<endl;  //( endl and '\n' ) ka use new line ke liye use kiyagaya hay//
+        cout << "namste duniy \n"; //( ; ) ka use line end ke liye use kiy jata hay //
+
+    // return 0;
+}
