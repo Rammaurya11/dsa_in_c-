@@ -1,0 +1,37 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a = 123;   // int type me ham keval  numbers hi (12 , 234 ) hi de sakte hay //
+    cout <<a <<endl; 
+    char c = 'a'; //char type me ham keval ek hi character de sakte hay jaise ('f','r' etc)//
+    cout <<c <<endl;
+
+    bool b = true;
+    cout << b <<endl;  // boolion ne keval true of false hi de sakte haya aur eska outeput keval 1 or 0 me ati hay //
+    bool bo = false;
+    cout << bo <<endl;
+
+    float f = 1.2;   // flote ki valu .1 tak hi jati hay//
+    cout <<f <<endl;
+     
+     double d = 1.23; // double ki value .ke bad 2 tak jati hay jaise 2.34//
+     cout << d <<endl;
+
+
+    int size = sizeof(f);  //size kitna le raha hay pata kane ke liye use kiya jata hay//
+    cout <<size <<endl;
+
+    int  i1= 2.0/5;
+    cout << i1 << endl; // show output 0 bicouse intige output bhi intiger me hi degi//
+
+    float f1 =2.0/5; //agar . ke bad tak ka answer chahito float yo double ka use karna padega//
+    cout <<f1 <<endl;
+
+    int a2=3;
+    int b2=4;
+    bool first =(a2<=b2); // relational operater es tarike se ose karte hay //
+    cout <<first <<endl;
+
+    
+
+}
