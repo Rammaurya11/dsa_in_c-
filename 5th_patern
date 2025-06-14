@@ -221,4 +221,151 @@ while(i<=n){
 i++;
 }
 
+
+
+// print this type of patern 
+// 1
+// 21
+// 321
+// int n;
+// cout<<"Enter A Number :- ";
+// cin>>n;
+// int i=1;
+// while(i<=n){
+//     int j=1;
+//     int k=i;
+//     while(j<=i){
+//         cout<<k<<" ";
+//         k--;
+//         j++;
+//     }
+//     cout<<endl;
+//     i++;
+// }
+
+
+
+
+// print this type of patern 
+// A A A
+// B B B 
+// C C C
+// int n;
+// cout<<"Enter A Number :- ";
+// cin>>n;
+// int k='A';
+// int i =1;
+// while(i<=n){
+//     int j=1;
+    
+//     while(j<=n){
+//         char ch=k;
+//         cout<<ch<<" ";
+//         j++;
+//     }
+//      k++;
+//     cout<<endl;
+  
+//     i++;
+// }
+
+
+
+
+// print this type of patern 
+// A B C
+// D E F 
+// G H I
+//     int n;
+//     cout<<"Enter A Number :- ";
+//     cin>>n;
+//     int i=1;
+//     int k='A';
+//     while(i<=n){
+//     int j=1;
+//     while(j<=n){
+//         char ch=k;
+//         cout<<ch<<" ";
+//         j++;
+//         k++;
+//     }
+//     cout<<endl;
+//     i++;
+// }
+ 
+
+
+
+// print this type of value 
+// A 
+// BC 
+// CDE 
+// int n;
+// cout<<"Enter A Number :- ";
+// cin>>n;
+//     int k='A';
+
+// int i=1;
+// while(i<=n){
+//     int j=1;
+//     while(j<=i){
+//         char ch=k;
+//         cout<<ch<<" ";
+//         j++;
+//          k++;
+//     }
+//     cout<<endl ;
+//     i++;
+// }
+
+
+
+// Print This type of valove 
+// A 
+// BB 
+// CCC 
+// int n;
+// cout<<"Enter A Number :- ";
+// cin>>n;
+// int k='A';
+// int i=1;
+// while(i<=n){
+//     int j=1;
+//     while(j<=i){
+//         char ch=k;
+//         cout<<ch<<" ";
+//         j++;
+//     }
+//     k++;
+//     cout<<endl;
+//     i++;
+// }
+
+
+
+
+// print this type of patern 
+// D 
+// DC 
+// DCB 
+// DCBA
+// int n;
+// cout<<"Enter A Number :- ";
+// cin>>n;
+
+// int i=1;
+// while(i<=n){
+//     int k='A'+n-1;
+//     int j=1;
+//     while(j<=i){
+//         char ch=k;
+//         // ch=ch-i;
+//         cout<<ch<<" ";
+//         j++;
+//          k--;
+//     }
+//     cout<<endl;
+//     i++;
+// }
+
 }
