@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+ 
+int main(){
+    int n;
+    cout<<"Enter A Number :- ";
+    cin>>n;
+    // int i;
+    // int count=1;
+    for(int i=-4;i<=n ;i++){
+        if(i<=0){
+            cout<<"nigative  values :- ";
+            cout<<i<<" "<<endl;
+        }else{
+            cout<<"positaive values :- ";
+            cout<<i<<" "<<endl;
+        }
+        // cout<<i<<" ";
+        // count++;
+       
+    }
+}
