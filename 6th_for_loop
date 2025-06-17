@@ -2,21 +2,74 @@
 using namespace std;
  
 int main(){
-    int n;
-    cout<<"Enter A Number :- ";
-    cin>>n;
-    // int i;
-    // int count=1;
-    for(int i=-4;i<=n ;i++){
-        if(i<=0){
-            cout<<"nigative  values :- ";
-            cout<<i<<" "<<endl;
-        }else{
-            cout<<"positaive values :- ";
-            cout<<i<<" "<<endl;
-        }
-        // cout<<i<<" ";
-
+    // int n;
+    // cout<<"Enter A Number :- ";
+    // cin>>n;
+    // for(int i=-4;i<=n ;i++){
+    //     if(i<=0){
+    //         cout<<"nigative  values :- ";
+    //         cout<<i<<" "<<endl;
+    //     }else{
+    //         cout<<"positaive values :- ";
+    //         cout<<i<<" "<<endl;
+    //     }
        
+    // }
+
+
+
+    // print fibonacci serice
+    // lick 0 1 1 2 3 5 8 13 21
+    // int n=20;
+    // int a=0;
+    // int b=1;
+    // cout<<a<<" "<<b<<" ";
+    // for(int i=1;i<=n;i++){
+    //     int fib=a+b;
+    //     cout<<fib<<" ";
+    //     a=b;
+    //     b=fib;
+    // }
+
+
+
+    // check prime or not prime 
+    // int n;
+    // bool isprime=1;
+    // cout<<"Enter A Number :- ";
+    // cin>>n;
+    // for(int i=2;i<n;i++){
+    //     if(n%i == 0){
+    //      isprime = 0;
+    //      break;
+    //     }
+    // }
+    // if(isprime == 0){
+    //     cout<<"This Number Is Not Prime Number ";
+
+    // }else{
+    //     cout<<"This Number Is  A prime Number";
+    // }
+
+
+
+// continue ka example
+// int n=5;
+// for(int i=1;i<=n;i++){
+//     cout<<"Hy ";
+//     cout<<" my ";
+//     cout<<" name is "<<endl;
+//     continue;
+//     cout<< " Rajat"<<endl;
+
+// }
+
+for(int i=1;i<=50;i+=2){
+    cout<<i<<" " ;
+    if(i&1){
+        continue;
     }
+    i++;
+}
+
 }
