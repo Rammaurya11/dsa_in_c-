@@ -16,7 +16,7 @@ int main(){
             cout<<i<<" "<<endl;
         }
         // cout<<i<<" ";
-        // count++;
+
        
     }
 }
