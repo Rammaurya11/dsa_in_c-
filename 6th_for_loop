@@ -48,7 +48,7 @@ int main(){
     //     cout<<"This Number Is Not Prime Number ";
 
     // }else{
-    //     cout<<"This Number Is  A prime Number";
+    //     cout<<"This Number Is  A prime Number .";
     // }
 
 
