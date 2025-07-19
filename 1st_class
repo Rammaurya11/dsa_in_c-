@@ -1,6 +1,6 @@
 #include<iostream>  //includ kiya gaya iostrem ko//
 
-using namespace std;  //std vala name spase kiye jane ke liye bataya gaya hay //
+using namespace std;  //std vala name spase kiye jane ke liye bataya gaya hai //
 
 int main(){
     
